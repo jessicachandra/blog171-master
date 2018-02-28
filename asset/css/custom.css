@@ -13,3 +13,22 @@
 gambar {
   height: 500px;
 }
+
+img{
+
+  width: 300px;
+  height: 250px;
+}
+
+.project-name
+{
+  text-align: center;
+  margin-left: 100px;
+}
+.btn-primary{
+  background-color: #f5b3a5;
+  border-color: #f5b3a5;
+}
+.bungkus{
+  margin-left: 500px;
+}

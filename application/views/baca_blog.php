@@ -39,5 +39,4 @@
  <div class="col-md-1 text-center" id="delete">
    <a href="/blog/delete/<?= $blog['blog_ID']?>">delete</a>
  </div>
-</div>
  <?php } ?>

@@ -16,15 +16,20 @@
       </div>
     </div>
   </header>
+
+  <div class="bungkus">
+
   <?php
            foreach( $blogs as $blog ){
              ?>
+
+   <br> </br>
   <section class="p-0" id="portfolio">
 
     <div class="container-fluid p-0">
       <div class="row no-gutters popup-gallery">
-        <div class="col-lg-4 col-sm-6">
 
+        <div class="tes">
             <?php
              echo "<img src=\"./asset/img/blog/".$blog['blog_ID'].".".$blog['foto']."\">";
               ?>
@@ -48,3 +53,6 @@
   <?php
   }
   ?>
+
+
+</div>

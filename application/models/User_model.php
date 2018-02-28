@@ -47,9 +47,9 @@ class User_model extends CI_Model {
 
         $query = $this->db->query( $sql );
 
-        if( !empty( $query->row_array() ) ) {
+        //if( !empty( $query->row_array() ) ) {
           return $query->row_array();
-        }
+        //}
 
     //  return false;
     }

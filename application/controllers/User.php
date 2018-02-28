@@ -29,7 +29,6 @@ class User extends CI_Controller {
        $this->load->template('register');
      }
    }
-
    public function login(){
      $this->load->template('login');
    }

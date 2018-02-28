@@ -65,8 +65,9 @@ class Blog_model extends CI_Model {
       $this->db->update('blog',$data);
 
     }
+
     public function delete($blog_ID){
-      $query = $this->db->query("DELETE FROM blogs WHERE blog_ID ='".$blog_id."'");
+      $query = $this->db->query("DELETE FROM blogs WHERE blog_ID ='".$blog_ID."'");
 
     }
 }
