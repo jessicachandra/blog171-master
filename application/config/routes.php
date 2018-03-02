@@ -13,12 +13,13 @@ $route['user/signin']     = 'user/signin';                // proses login user
 $route['user/signout']    = 'user/signout';               // proses login user
 $route['user/reg']        = 'user/register';              // halaman form registrasi user
 $route['user/(:any)']     = 'user/profil/$1';  //untuk profile
+$route['isi'] = 'welcome/index';
 $route['user/(any:)']     = 'user/$1';
 $route['blog/subedit/(:any)'] = 'blog/subedit/$1';         //mengedit blogs
 $route['blog/delete/(:any)']     = 'blog/delete/$1' ;        // delete
 $route['blog/(:any)']     = 'blog/index/$1';                 // halaman profil user dengan user_id $1
 
-$route['isi'] = 'welcome/index';                           //home
+                           //home
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

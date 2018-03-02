@@ -1,5 +1,6 @@
-
-
+.background{
+  background-image: url("/asset/img/background.jpg");
+}
 .form-group{
   margin-left: 25px;
   margin-right: 25px;
@@ -10,25 +11,50 @@
 }
 
 
-gambar {
-  height: 500px;
+.gambar {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 img{
-
-  width: 300px;
+  width: 350px;
   height: 250px;
 }
 
 .project-name
 {
   text-align: center;
-  margin-left: 100px;
 }
 .btn-primary{
   background-color: #f5b3a5;
   border-color: #f5b3a5;
 }
 .bungkus{
-  margin-left: 500px;
+  padding-left: 370px;
+  /* margin-left: 500px; */
+  background-image: url("/asset/img/background.jpg");
+}
+.project-name{
+  text-align: center;
+}
+
+.tulisan{
+    text color: #f4429e;
+    text-decoration: none;
+}
+
+p{
+font-family: 'Poppins', sans-serif;
+ text-align: inherit;
+ margin-left: 35px;
+ margin-right: 35px;
+
+}
+h1,h5{
+  text-align: center;
+}
+
+.post{
+  margin-left: 10px;
 }

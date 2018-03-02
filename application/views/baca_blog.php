@@ -1,6 +1,6 @@
 <br>
 <div class="atas">
-  <br><br><br><br>
+  <br><br>
 </div>
 
 <div class="gambar">
@@ -31,8 +31,6 @@
 //die(print_r($this->session->uid));
   if(($this->session->uid)==$blog['user_ID']){
  ?>
-
-
  <div class="col-md-1 text-center" id="edit">
    <a href="/blog/edit/<?= $blog['blog_ID']?>">Edit</a>
  </div>
